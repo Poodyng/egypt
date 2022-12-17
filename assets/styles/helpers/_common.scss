@@ -1,0 +1,111 @@
+@import './reset';
+@import './mixins';
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: 0.4s ease-in;
+    background-color: #FF5029;
+
+    &:hover {
+        cursor: pointer;
+        color: #FF5029;
+        background-color: #ffffff;
+        outline: 1px solid #FF5029;
+    }
+
+    &--big {
+        padding: 27px 32px;
+    }
+
+    &--title {
+        padding: 20px 40px;
+    }
+}
+
+.select {
+    display: none;
+    appearance: none;
+}
+
+.custom-select {
+    position: relative;
+    height: 30px;
+    min-width: 115px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+    &.open {
+        overflow: initial;
+    }
+
+    &__list {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .item {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0B0614;
+        cursor: pointer;
+        transition: 0.4s ease;
+
+        &:hover {
+            color: #FF5029;
+        }
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 14px;
+        height: 8px;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        background: url(../../assets/images/icons/select-arrow.svg);
+    }
+}
+
+.mini-btn {
+    padding: 8px 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF5029;
+    background: #FEF4F5;
+    border-radius: 12px;
+    transition: 0.6s ease;
+    &:hover {
+        cursor: pointer;
+        background-color: #FF5029;
+        color: #FEF4F5;
+    }
+
+    &--one {
+        margin: 30px 0 24px;
+    }
+
+    &--too {
+        margin-bottom: 24px;
+    }
+}

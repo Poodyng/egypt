@@ -1,0 +1,63 @@
+.header {
+    padding: 30px 0;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 0 60px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    &__left, &__right {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__left {
+        gap: 20px;
+    } 
+
+    &__right {
+        gap: 40px;
+    }
+
+    &__logo {
+        display: flex;
+        padding-right: 20px;
+        border-right: 2px solid rgba(11, 6, 20, 0.3);
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 40px;
+
+        li {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #0B0614;
+
+            a {
+                transition: 0.4s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #FF5029;
+                }
+            }
+        }
+    }
+}

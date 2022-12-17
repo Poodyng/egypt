@@ -1,0 +1,101 @@
+.footer {
+    background: #0B0614;
+    &__box {
+        padding: 90px 0 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__word {
+        margin-top: 30px;
+        max-width: 333px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__sub-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.8);
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            color: rgba(255, 80, 41, 1);
+        }
+    }
+
+    &__block-direction {
+        margin-bottom: 12px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+    
+
+    &__sub-word {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__img-icon {
+        padding-top: 18px;
+        display: flex;
+        gap: 8px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 40px;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    &__text {
+        display: flex;
+        gap: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__text-orange {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 80, 41, 1);
+    }
+
+    &__block-text {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__sub-text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.8);
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            color: rgba(255, 213, 213, 0.8);
+        }
+    }
+}

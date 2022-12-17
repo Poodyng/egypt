@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/styles/common.css" rel="stylesheet">
+</head>
+<header class="header">
+    <div class="container">
+        <div class="header__box">
+            <div class="header__left">
+                <div class="header__logo">
+                    <img src="/assets/images/icons/egyptTour.png" alt="">   
+                </div>
+                <div class="header__search">
+                    <img src="/assets/images/icons/search1.png" alt="">
+                    <input type="text" placeholder="Search" name="search">
+                </div>
+            </div>
+            <div class="header__right">
+                <ul class="header__nav">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Guides</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Inspiration</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__buttons">
+                    <button class="btn">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="hero">
+    <div class="container">
+        <div class="hero__box">
+            <h2 class="hero__title">Find the Best Egyptian Guide</h2>
+            <img class="hero__background" src="./assets/images/pexels-taryn-elliott-38899072.png" alt="hero image">
+        </div>
+    </div>
+</div>
+<div class="choice">
+    <div class="container">
+        <div class="choice__box">
+           <div class="choice__item">
+                <h2 class="choice__title">Gender</h2>
+                <select class="select">
+                    <option value="1">Male</option>    
+                    <option value="2">Female</option>       
+                    <option value="3">Unknown</option>
+                </select>
+           </div>
+           <div class="choice__item">
+                <h2 class="choice__title">Age</h2>
+                    <select class="select">
+                        <option value="1">24+</option>    
+                        <option value="2">27+</option>       
+                        <option value="3">32+</option>
+                    </select>
+           </div>
+           <div class="choice__item">
+                <h2 class="choice__title">Language</h2>
+                    <select class="select">
+                        <option value="1">English</option>    
+                        <option value="2">Arabic</option>       
+                        <option value="3">Maleee</option>
+                    </select>
+           </div>
+           <div class="choice__item">
+                <h2 class="choice__title">Lacalisation</h2>
+                    <select class="select">
+                        <option value="1">Cairo</option>    
+                        <option value="2">Malee</option>       
+                        <option value="3">Maleee</option>
+                    </select>
+           </div>
+           <div class="choice__button">
+                <button class="btn btn--big">Search</button>
+           </div>
+        </div>
+    </div>
+</div>
+<div class="guides">
+    <div class="container">
+        <div class="guides__items">
+            <h3 class="guides__word">Guides for you!</h3>
+            <button class="btn btn--title">See All Guides</button>
+        </div>
+        <div class="guides__box">
+            <div class="guides__card">
+                <div class="guides__img">
+                    <img class="guides__img-card" src="/assets/images/icons/Screenshot_51.png" alt="">
+                </div>
+                <div class="guides__text">
+                    <h2 class="guides__title">Abayomi Mallik</h2>
+                </div>
+                <div class="rating-area">
+                    <input type="radio" id="star-5" name="rating" value="5">
+                    <label for="star-5" title="Оценка «5»"></label>	
+                    <input type="radio" id="star-4" name="rating" value="4">
+                    <label for="star-4" title="Оценка «4»"></label>    
+                    <input type="radio" id="star-3" name="rating" value="3">
+                    <label for="star-3" title="Оценка «3»"></label>  
+                    <input type="radio" id="star-2" name="rating" value="2">
+                    <label for="star-2" title="Оценка «2»"></label>    
+                    <input type="radio" id="star-1" name="rating" value="1">
+                    <label for="star-1" title="Оценка «1»"></label>
+                </div>
+                <div class="guides__sub-text">
+                    <p class="guides__sub-title">1000+ reviews</p>
+                </div>
+            </div>
+            <div class="guides__card">
+                <div class="guides__img">
+                    <img class="guides__img-card" src="/assets/images/icons/kgroup.png" alt="">
+                </div>
+                <div class="guides__text">
+                    <h2 class="guides__title">Berenike Eman</h2>
+                </div>
+                <div class="rating-area">
+                    <input type="radio" id="star-5" name="rating" value="5">
+                    <label for="star-5" title="Оценка «5»"></label>	
+                    <input type="radio" id="star-4" name="rating" value="4">
+                    <label for="star-4" title="Оценка «4»"></label>    
+                    <input type="radio" id="star-3" name="rating" value="3">
+                    <label for="star-3" title="Оценка «3»"></label>  
+                    <input type="radio" id="star-2" name="rating" value="2">
+                    <label for="star-2" title="Оценка «2»"></label>    
+                    <input type="radio" id="star-1" name="rating" value="1">
+                    <label for="star-1" title="Оценка «1»"></label>
+                </div>
+                <div class="guides__sub-text">
+                    <p class="guides__sub-title">1000+ reviews</p>
+                </div>
+            </div>
+            <div class="guides__card">
+                <div class="guides__img">
+                    <img class="guides__img-card" src="/assets/images/icons/askoup.png" alt="">
+                </div>
+                <div class="guides__text">
+                    <h2 class="guides__title">Abu Bakar</h2>
+                </div>
+                <div class="rating-area">
+                    <input type="radio" id="star-5" name="rating" value="5">
+                    <label for="star-5" title="Оценка «5»"></label>	
+                    <input type="radio" id="star-4" name="rating" value="4">
+                    <label for="star-4" title="Оценка «4»"></label>    
+                    <input type="radio" id="star-3" name="rating" value="3">
+                    <label for="star-3" title="Оценка «3»"></label>  
+                    <input type="radio" id="star-2" name="rating" value="2">
+                    <label for="star-2" title="Оценка «2»"></label>    
+                    <input type="radio" id="star-1" name="rating" value="1">
+                    <label for="star-1" title="Оценка «1»"></label>
+                </div>
+                <div class="guides__sub-text">
+                    <p class="guides__sub-title">1000+ reviews</p>
+                </div>
+            </div>
+            <div class="guides__card">
+                <div class="guides__img">
+                    <img class="guides__img-card" src="/assets/images/icons/maskroup.png" alt="">
+                </div>
+                <div class="guides__text">
+                    <h2 class="guides__title">Dendera Heba</h2>
+                </div>
+                <div class="rating-area">
+                    <input type="radio" id="star-5" name="rating" value="5">
+                    <label for="star-5" title="Оценка «5»"></label>	
+                    <input type="radio" id="star-4" name="rating" value="4">
+                    <label for="star-4" title="Оценка «4»"></label>    
+                    <input type="radio" id="star-3" name="rating" value="3">
+                    <label for="star-3" title="Оценка «3»"></label>  
+                    <input type="radio" id="star-2" name="rating" value="2">
+                    <label for="star-2" title="Оценка «2»"></label>    
+                    <input type="radio" id="star-1" name="rating" value="1">
+                    <label for="star-1" title="Оценка «1»"></label>
+                </div>
+                <div class="guides__sub-text">
+                    <p class="guides__sub-title">1000+ reviews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="how">
+    <div class="container">
+        <div class="how__work">
+            How does it Work?
+        </div>
+        <div class="how__box">
+            <div class="how__card">
+                <div class="how__block-img">
+                    <img class="how__img" src="/assets/images/icons/1roup_.png" alt="">
+                </div>
+                <h2 class="how__title">Select a Guide</h2>
+            </div>
+            <div class="how__card">
+                <div class="how__block-img-too">
+                    <img class="how__img" src="/assets/images/icons/2roup_.png" alt="">
+                </div>
+                <h2 class="how__title">Contact Guide</h2>
+            </div>
+            <div class="how__card">
+                <div class="how__block-img-thee">
+                    <img class="how__img" src="/assets/images/icons/3roup_.png" alt="">
+                </div>
+                <h2 class="how__title">Create your Travel</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="be">
+    <div class="container">
+        <div class="be__box">
+            <div class="be__text">
+                <h2 class="be__title">Are you a Tourist Guide in Egypt?</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="free">
+    <div class="container">
+        <div class="free__items">
+            <div class="free__block-text">
+                <h2 class="free__title">Be referenced on our site, <p class="free__orange">it's 100% free!</p></h2>
+            </div>
+            <div class="free__block">
+                    <button class="btn btn--title">I am a Tourist Guide</button>
+                <div class="free__box">
+                    <ul class="free__list">
+                        <li>
+                            <img class="free__img-one" src="/assets/images/icons/ellipse1.png" alt="">
+                        </li>
+                        <li>
+                            <img class="free__img-too" src="/assets/images/icons/ellipse2.png" alt="">
+                        </li>
+                        <li>
+                            <img class="free__img-hree" src="/assets/images/icons/ellipse3.png" alt="">
+                        </li>
+                        <li>
+                            <img class="free__img-four" src="/assets/images/icons/ellipse4.png" alt="">
+                        </li>
+                    </ul>
+                    <div class="free__sub-text">  
+                        <h1 class="free__sub-title"><p class="free__orange">1000+</p>tourist join us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="learn">
+    <div class="container">
+        <div class="learn__header">
+            Learn more About Egypt
+        </div>
+        <div class="learn__box">
+            <div class="learn__card-big">
+                <div class="learn__img">
+                    <img src="/assets/images/hotel.png" alt="">
+                </div>
+                <button class="mini-btn mini-btn--one">Hotel</button>
+                <div class="learn__text-block">
+                    <h2 class="learn__sub-title">Where to sleep in Luxor?</h2>
+                    <div>
+                        <img src="/assets/images/icons/arrow-up-right.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="learn__block-card">
+                <div class="learn__mini-card">
+                    <div class="learn__img">
+                        <img src="/assets/images/resraurant.png" alt="">
+                    </div>
+                    <div class="learn__card-items">
+                        <button class="mini-btn mini-btn--too">Restaurant</button>
+                        <div class="learn__text-block">
+                            <h2 class="learn__sub-title">5 restaurant in Cairo</h2>
+                            <div>
+                                <img src="/assets/images/icons/arrow-up-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn__mini-card-free">
+                    <div class="learn__img">
+                        <img src="/assets/images/advance.png" alt="">
+                    </div>
+                    <div class="learn__card-items">
+                        <button class="mini-btn mini-btn--too">Advance & Tip</button>
+                        <div class="learn__text-block">
+                            <h2 class="learn__sub-title">Is Egypt dangerous?</h2>
+                            <div>
+                                <img src="/assets/images/icons/arrow-up-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__box">
+            <div class="footer__description">
+                <div class="footer__img">
+                    <img src="/assets/images/icons/eegyptTour.png" alt="">
+                </div>
+                <h2 class="footer__word">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </h2>
+            </div>
+            <div class="footer__block-list">
+                <ul class="footer__list">
+                    <li class="footer__title">Useful Links</li>
+                    <li class="footer__sub-title">About</li>
+                    <li class="footer__sub-title">Guide</li>
+                    <li class="footer__sub-title">Inspiration</li>
+                    <li class="footer__sub-title">Contact</li>
+                </ul>
+            </div>
+            <div class="footer__block-list">
+                <ul class="footer__list">
+                    <li class="footer__title">Resources</li>
+                    <li class="footer__sub-title">Become a guide</li>
+                    <li class="footer__sub-title">Legal</li>
+                    <li class="footer__sub-title">Blog</li>
+                    <li class="footer__sub-title">Help</li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h2 class="footer__title">Contact Us</h2>
+                <div class="footer__block-direction">
+                    <div>
+                        <img src="/assets/images/icons/mail.png" alt="">
+                    </div>
+                    <h2 class="footer__sub-word">infomail@gmail.com</h2>
+                </div>
+                <div class="footer__block-direction">
+                    <div>
+                        <img src="/assets/images/icons/map-pin.png" alt="">
+                    </div>
+                    <h2 class="footer__sub-word">48 Street Road, Cairo</h2>
+                </div>
+                <div>
+                    <ul class="footer__img-icon">
+                        <li>
+                            <img src="/assets/images/icons/faceb.png" alt="">
+                        </li>
+                        <li>
+                            <img src="/assets/images/icons/twitt.png" alt="">
+                        </li>
+                        <li>
+                            <img src="/assets/images/icons/instta.png" alt="">
+                        </li>
+                        <li>
+                            <img src="/assets/images/icons/in.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__footer">
+            <div>
+                <h2 class="footer__text">© 2022 <p class="footer__text-orange">EgyptTour</p></h2>
+            </div>
+            <div class="footer__block-text">
+                <h2 class="footer__sub-text">Privacy Policy</h2>
+                <h2 class="footer__sub-text">Term of Condition</h2>
+            </div>
+        </div>
+    </div>
+</footer>
+<body>
+    
+    <script src="./assets/scripts/common.js"></script>
+</body>
+</html>
